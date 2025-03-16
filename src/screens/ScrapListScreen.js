@@ -33,7 +33,7 @@ const ScrapListScreen = () => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 16 },
+  container: { flex: 1, padding: 16, display: 'block' },
   itemContainer: { marginBottom: 16, borderBottomWidth: 1, borderBottomColor: '#ccc', paddingBottom: 8 },
   url: { fontWeight: 'bold', marginBottom: 4 },
   content: { marginBottom: 4 },
